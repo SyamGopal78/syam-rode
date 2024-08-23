@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin: 0px;
+        }
+        .parent1{
+           
+           background-image: url("https://edge.rode.com/images/page/1/modules/10299/rode-podmic-usb-banner-5910x2155-rgb-1920x700-8c89d38.jpg");
+           background-size: cover;
+           min-height: 90vh;
+           
+       }
+       .child1 {
+            text-align: center;
+            padding-top: 10rem;
+            padding-right: 30%;
+            
+        }
+
+        .child1 h3{
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+
+        }
+        .child1 p{
+            color: hsla(0, 0%, 100%, .5);
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: large;
+
+        }
+        .child1 a{
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            
+            border-radius: 25px;
+
+
+        }
+        .child1 a:hover{
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px white;
+
+
+        }
+        .parent{
+           
+            background-image: url("https://edge.rode.com/images/page/1/modules/10296/rode-white-range-family-banner-6-products-14967x5457-rgb-1920x700-8c89d38%20(2).jpg");
+            background-size: cover;
+            min-height: 90vh;
+            
+        }
+        .child2{
+            text-align: center;
+            padding-left: 50%;
+            padding-top: 13%;
+        }
+        .child2 h3{
+            font-size: 1.8rem;
+            font-weight: lighter;
+            font-family: sans-serif;
+            
+        }
+        .child2 p{
+            color: rgba(0,0,0,.5);
+            font-family: sans-serif;
+            
+        }
+        .child2 a{
+            color:white;
+            background-color: black;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        .child2 a:hover{
+            color:black;
+            background-color:transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px black;
+        }
+        .parent2{
+            background-image: url("https://edge.rode.com/images/page/1/modules/10167/rode-wireless-me-white-duel-0213-banner-14948x5464-rgb-1921x702-d791c16.jpg");
+            background-size: 100%;
+            background-size: cover;
+            min-height: 90vh;
+        }
+        .child3 {
+            text-align: center;
+            padding-top: 10rem;
+            padding-right: 30%;
+            
+        }
+
+        .child3 h3{
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+
+        }
+        .child3 p{
+            color: hsla(0, 0%, 100%, .5);
+            font-weight: bold;
+            font-family: sans-serif;
+
+        }
+        .child3 a{
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+
+
+        }
+        .child3 a:hover{
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px black;
+
+
+        }
+        .parent3{
+           
+           background-image: url("https://edge.rode.com/images/page/1/modules/10100/IV-Pro-Banner-01-1920x700-7212b98.jpg");
+           background-size: cover;
+           min-height: 90vh;
+           
+       }
+       .child4{
+           text-align: center;
+           padding-left: 50%;
+           padding-top: 13%;
+       }
+       .child4 h3{
+           font-size: 1.8rem;
+           font-weight: lighter;
+           font-family: sans-serif;
+           
+       }
+       .child4 p{
+           color: rgba(0,0,0,.5);
+           font-family: sans-serif;
+           
+       }
+       .child4 a{
+           color:white;
+           background-color: black;
+           padding: 17px 50px 17px 50px;
+           border-radius: 25px;
+           text-decoration: none;
+           font-family: sans-serif;
+       }
+       .child4 a:hover{
+            color:black;
+            background-color: transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px black;
+       }
+       .parent4{
+            background-image: url("https://edge.rode.com/images/page/1/modules/9958/Wipro-Banner-02-Right-1920x700-8c89d38.jpg");
+            background-size: cover;
+            min-height: 90vh;
+        }
+        .child5 {
+            text-align: center;
+            padding-top: 10rem;
+            padding-right: 30%;
+            
+        }
+
+        .child5 h3{
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+
+        }
+        .child5 p{
+            color: hsla(0, 0%, 100%, .5);
+            font-weight: bold;
+            font-family: sans-serif;
+
+        }
+        .child5 a{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+        }
+        .child5 a:hover{
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px black;
+        }
+        .parent5{
+           
+           background-image: url("https://edge.rode.com/images/page/1/modules/9946/Podcast-Homepage-image-1920x700-29ee15c.jpg");
+           background-size: cover;
+           min-height: 90vh;
+           
+       }
+       .child6{
+           text-align: center;
+           padding-left: 50%;
+           padding-top: 13%;
+       }
+       .child6 h3{
+           font-size: 1.8rem;
+           color: white;
+           font-family: sans-serif;
+           
+       }
+       .child6 p{
+           color: hsla(0, 0%, 100%, .5);
+           font-family: sans-serif;
+           
+       }
+       .child6 a{
+           color:black;
+           background-color: white;
+           padding: 17px 50px 17px 50px;
+           border-radius: 25px;
+           text-decoration: none;
+           font-family: sans-serif;
+           font-weight: bold;
+       }
+       .child6 a:hover{
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px white;
+        }
+       .parent6{
+            background-image: url("https://edge.rode.com/images/page/1/modules/10099/Phone-Cage-Banner-01-1920x700-814605a.jpg");
+            background-size: cover;
+            min-height: 90vh;
+        }
+        .child7 {
+            text-align: center;
+            padding-top: 10rem;
+            padding-right: 30%;
+            
+        }
+
+        .child7 h3{
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+
+        }
+        .child7 p{
+            color: hsla(0, 0%, 100%, .5);
+            font-weight: bold;
+            font-family: sans-serif;
+
+        }
+        .child7 a{
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+        }
+        .child7 a:hover{
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px white;
+        }
+        .parent7{
+           
+           background-image: url("https://edge.rode.com/images/page/1/modules/9502/NT1-Sig-Ser-Banner-desktop.jpg");
+           background-size: cover;
+           min-height: 90vh;
+           
+       }
+       .child8{
+           text-align: center;
+           padding-left: 50%;
+           padding-top: 13%;
+       }
+       .child8 h3{
+           font-size: 1.8rem;
+           color: white;
+           font-family: sans-serif;
+           
+       }
+       .child8 p{
+           color: hsla(0, 0%, 100%, .5);
+           font-family: sans-serif;
+           
+       }
+       .child8 a{
+           color:black;
+           background-color: white;
+           padding: 17px 50px 17px 50px;
+           border-radius: 25px;
+           text-decoration: none;
+           font-family: sans-serif;
+           font-weight: bold;
+       }
+       .child8 a:hover{
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+            padding: 17px 50px 17px 50px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px white;
+        }
+        .lmchild{
+            color: grey;
+            font-size: 20px;
+            font-family: sans-serif;
+            position: relative;
+            right: 30px;
+            font-weight: bold;
+        }
+       .Header-line{
+        text-align: center;
+        text-decoration: underline;
+        padding: 2%;
+        background-color: white;
+        font-family: sans-serif;
+       }
+      
+       .pparent1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+        background-color: rgba(248,249,250,255);
+       }
+       .cchild1 {
+        margin-left: 4rem;
+        margin-right: 1rem;
+        background-color: white;
+        margin-top: 1rem;
+        text-align: center;
+        padding: 0px 0px 50px 0px;
+       }
+       .cchild1 h3{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 2rem;
+        font-weight: lighter;
+       }
+       .cchild1 p{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+       }
+       .cchild1 a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+       }
+       .cchild1 a:hover{
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+        box-shadow: 0px 0px 5px black;
+       }
+
+       
+       .cchild2 {
+        margin-right: 4rem;
+        margin-left: 1rem; 
+        background-color: white;
+        margin-top: 1rem;
+        text-align: center;
+       }
+       .cchild2 h3{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 2rem;
+        font-weight: lighter;
+       }
+       .cchild2 p{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+       }
+       .cchild2 a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+       }
+       .cchild2 a:hover{
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+        box-shadow: 0px 0px 5px black;
+       }
+       
+       .pparent2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+        background-color: rgba(248,249,250,255);
+       }
+       .cchild3 {
+        margin-left: 4rem;
+        margin-right: 1rem;
+        background-color: white;
+        margin-top: 1rem;
+        text-align: center;
+        padding: 0px 0px 50px 0px;
+        margin-bottom: 1rem;
+       }
+       .cchild3 h3{
+        text-align: center;
+        font-size: 2rem;
+        font-family: sans-serif;
+        font-weight: lighter;
+      
+       }
+       .cchild3 p{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+       }
+       .cchild3 a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+       }
+       .cchild3 a:hover{
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+        box-shadow: 0px 0px 5px black;
+       }
+       .cchild4 {
+        margin-right: 4rem;
+        margin-left: 1rem;
+        background-color: white;
+        margin-top: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+       }
+       .cchild4 h3{
+        text-align: center;
+        font-size: 2rem;
+        font-family: sans-serif;
+        font-weight: lighter;
+       }
+       .cchild4 p{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+       }
+       .cchild4 a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+       }
+       .cchild4 a:hover{
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        font-family: sans-serif;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 12px 25px;
+        box-shadow: 0px 0px 5px black;
+       }
+       .ppparent{
+        text-align: center;
+        margin-left: 250px;
+        margin-bottom: 120px;
+        
+        
+       }
+       .ppparenth h1{
+        text-align: center;
+       }
+       
+       .ccchild{
+        background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5357%2Fmicrophones-module-1200x300-rgb.png");
+        padding: 100px 0px;
+        background-repeat: no-repeat;
+        margin-top: 3rem;
+        margin-right: 250px;
+        
+        
+  
+       }
+       .ccchild2{
+        background-image: url("https://rode.com/assets/images%2Fpage%2F1%2Fmodules%2F5359%2Finterfaces-module-2022-1200x300-rgb.jpg");
+        padding: 100px 0px;
+        background-repeat: no-repeat;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-right: 250px;
+
+       }
+       .ccchild3{
+        background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5361%2Fsoftware-module-2021-1200x300-rgb.png");
+        padding: 100px 0px;
+        background-repeat: no-repeat;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-right: 250px;
+
+       }
+       .ccchild4{
+        background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5370%2Faccessories-module-2021-1200x300-rgb.png");
+        padding: 100px 0px;
+        background-repeat: no-repeat;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-right: 250px;
+
+       }
+       .p4parent {
+        display: flex;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+        margin-left: 7%;
+        margin-top: 70px;
+        
+        
+       }
+       .p4child {
+        margin-left: 100px;
+        text-align: right;
+       
+        
+       }
+       
+       .childul1{
+        font-size: 17px;
+        list-style-type: none;
+        font-family: sans-serif;
+        text-align: left;
+        
+       }
+       .childul2{
+        font-size: 17px;
+        list-style-type: none;
+        font-family: sans-serif;
+       }
+       .childul3{
+        font-size: 17px;
+        list-style-type: none;
+        font-family: sans-serif;
+       }
+       .childim{
+        position: relative;
+        top: -85px;
+       }
+       .bchild{
+        border-radius: 25px;
+        color: white;
+        background-color: black;
+        padding: 10px 30px;
+        font-size: large;
+        font-family: sans-serif;
+       }
+       .hchild{
+        margin: 0px 100px;
+       }
+       .lchild{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px 50px 0px;
+        font-family: sans-serif;
+       }
+       .l2child{
+        font-size: 1.7rem;
+        margin-top: 18px;
+       }
+       .contents{
+        list-style-type: none;
+        
+       }
+       .navbar{
+        display: flex;
+        justify-content: space-around;
+        padding: 25px 0px;
+        
+       }
+       .contents{
+        display: flex;
+        gap:50px;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+       }
+       .optionbar{
+        display: flex;
+        justify-content:space-between;
+        padding:0.3% 10%;
+        border:0.5px solid grey
+       }
+    .fa-location-dot{
+        font-size: large;
+    }
+    .fa-magnifying-glass{
+        position: relative;
+        top: 10px;
+        font-size: 2rem;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="optionbar">
+        <div>
+            <i class="fa-solid fa-location-dot"></i>
+        <select name="" id="">
+           
+            <option value="">EN</option>
+            <option value="">CN</option>
+            <option value="">DE</option>
+            <option value="">FR</option>
+            <option value="">KO</option>
+            <option value="">JA</option>
+            <option value="">IT</option>
+            <option value="">ES</option>
+            <option value="">EN-US</option>
+        </select>
+    </div>
+    <div><i class="fa-solid fa-user"></i></div>
+
+
+    </div>
+    <nav class="navbar">
+
+        <img src="logo.PNG" alt="" width="7%">
+        <ul class="contents">
+            <li>PRODUCTS</li>
+            <li>SOLUTIONS</li>
+            <li>APPS</li>
+            <li>USER GUIDES</li>
+            <li>SUPPORT</li>
+        </ul>
+        <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    </nav>
+    <div class="parent1">
+        <div class="child1">
+            <img src="https://edge.rode.com/images/page/1/modules/10299/PODMIC%20USB_PL_PI_02.svg" width="78%" alt="logo0">
+            <h3>Introducing the PodMic USB in White </h3>
+            <p>The PodMic USB is an ultra-versatile dynamic microphone with <br> both an XLR and USB output, ideal for podcasting, streaming, <br> gaming, and other speech applications for content creation. Now <br> available in white.</p><br><br>
+            <span class="lmchild">LEARN MORE > </span><a href="">BUY NOW</a>
+        </div>      
+</div>
+    <div class="parent">
+            <div class="child2">
+                <img src="https://edge.rode.com/images/page/1/modules/10296/RODECasterProII_PL_P_01.svg" width="78%" alt="logo">
+                <h3>Meet the White Collection </h3>
+                <p>Say hello to the White Collection featuring the RØDECaster Duo,<br> PodMic, NTH-100, and now the RØDECaster Pro II.</p><br><br><br>
+                <a href="">SHOP NOW</a>
+            </div>      
+    </div>
+    <div class="parent2">
+        
+        <div class="child3">
+            <img src="https://edge.rode.com/images/page/1/modules/10167/WIME_PL_PI_01.svg"  width="78%"   alt="logo1">
+            <h3>Introducing the Dual Transmitter Edition</h3>
+            <p>Compact and simple to use, the Wireless ME is the perfect grab-<br>and-go wireless microphone for content creators. Now available in a Dual Set.</p><br><br>
+            <a href="">SHOP NOW</a>
+        </div>
+    </div>
+    <div class="parent3">
+        <div class="child4">
+            <img src="https://edge.rode.com/images/page/1/modules/10100/INTERVIEWPRO_PL_P_01.svg" width="78%" alt="logo2">
+            <h3>Pristine Wireless Audio in Your Hands</h3>
+            <p>The Interview PRO is a broadcast-quality handheld wireless <br> microphone with 32-bit float on-board recording and intelligent <br> GainAssist technology--ideal for capturing professional audio in a <br> wide range of content creation, media and broadcast applications.</p><br><br>
+            <span class="lmchild">LEARN MORE > </span><a href="">BUY NOW</a>
+        </div>      
+    </div>
+    <div class="parent4">
+        
+        <div class="child5">
+            <img src="https://edge.rode.com/images/page/1/modules/9242/WIGO%20PRO%20PL%20P%2001.svg"  width="78%"   alt="logo3">
+            <h3>The Most Powerful Wireless Mic Ever</h3>
+            <p>The Wireless PRO is the ultimate wireless solution, packed full of <br> powerful features like 32-bit float, timecode and GainAssist that <br> offer incredible flexibility for recording pristine audio for your <br>content.</p><br><br>
+            <span class="lmchild">LEARN MORE > </span><a href="">BUY NOW</a>
+        </div>
+    </div>
+    <div class="parent5">
+        <div class="child6">
+            <img src="https://edge.rode.com/images/page/1/modules/9946/THE PODCASTING RANGE-white.svg" width="78%" alt="logo5">
+            <h3>Your Podcast Starts Here</h3>
+            <p>Our industry-leading range of podcasting equipment offers <br> everything you need to record a podcast start-to-finish, from <br> microphones, studio arms and headphones to complete, all-in-one <br> production studios.</p><br><br>
+            <a href="">EXPLORE THE RANGE</a>
+        </div>      
+    </div>
+    <div class="parent6">
+        <div class="child7">
+            <img src="https://edge.rode.com/images/page/1/modules/10099/Phone%20Cage_Logo_PL_PI_01.svg" width="78%" alt="logo6">
+            <h3>Level Up Your Mobile Content</h3>
+            <p>Rugged, lightweight and ultra-versatile filmmaking accessories <br> designed to elevate your content.</p><br><br>
+            <a href="">MOUNTS & GRIPS</a>
+        </div>      
+    </div>
+    <div class="parent7">
+        <div class="child8">
+            <img src="https://edge.rode.com/images/page/1/modules/9502/NT1SS_PL_PMI_01.svg" width="78%" alt="logo7">
+            <h3>Your New Go-to Studio Mic</h3>
+            <p>The NT1 Signature Series is a workhorse studio condenser microphone with a warm, silky character, exceptionally low noise and high SPL handling - ideal in a wide range of studio applications.</p><br><br>
+            <span class="lmchild">LEARN MORE > </span><a href="">BUY NOW</a>
+        </div>      
+    </div>
+    <div class="Header-line">
+        <h1>Latest From The RØDE Blog</h1>
+    </div>
+    <div class="pparent1">
+        <div class="cchild1">
+        <h3>Introducing the RØDECaster Pro II in <br>White</h3>
+        <img src="https://edge.rode.com/images/page/1/modules/10272/rode-rodecaster-pro-II-white-tree-quarter-podcast-8192x5464-rgb-1080x1080-7883f16.jpg" width="100%" alt="logo8">
+        <p>The RØDECaster Pro II joins the rest of the RØDE White Collection, <br>including the PodMic, Wireless ME, PSA1+, NTH-100 and <br>RØDECaster Duo.</p><br><br>
+        <a href="">LEARN MORE</a>
+        </div>
+        <div class="cchild2">
+            <h3>How to Record a Wireless Podcast</h3><br><br>
+            <img src="https://edge.rode.com/images/page/1/modules/10208/rode-wireless-eco-system-8192x5464-rgb-1080x1080-7b3131c.jpg" width="100%" alt="logo9">
+            <p>In this article, well take a look at how to set up and record a <br>wireless podcast using the RØDECaster Pro II or RØDECaster Duo <br>and our wireless microphone systems.</p><br><br>
+            <a href="">LEARN MORE</a>
+            </div>
+    </div>
+    <div class="pparent2">
+        <div class="cchild3">
+        <h3>How to Make a Video Podcast with Your <br>iPhone</h3>
+        <img src="https://edge.rode.com/images/page/1/modules/10208/rode-podcast-bundle-duo-PB21-A-0154-1080x1080-91f9291.jpg" width="100%" alt="logo9">
+        <p>In this article, were going to show you a few simple tricks for <br> creating video content for your podcast with your iPhone.</p><br><br>
+        <a href="">LEARN MORE</a>
+        </div>
+        <div class="cchild4">
+            <h3>Introducing the Interview PRO, Phone <br>Cage and Magnetic Mount</h3>
+            <img src="https://edge.rode.com/images/page/1/modules/10129/rode-interview-pro-wireless-pairing-shot-03-8192x5464-rgb-1080x1080-156cc6b.jpg" width="100%" alt="logo10">
+            <p>Announcing a broadcast-quality wireless handheld microphone <br>and two premium smartphone filmmaking accessories.</p><br><br>
+            <a href="">LEARN MORE</a>
+        </div>
+    </div>
+    <div class="ppparenth">
+        <h1 >Explore The RØDE Range</h1>
+    
+    </div>
+    <div class="ppparent">
+        
+        <div class="ccchild">
+      
+        <img  src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5364%2Fmicrophones-text.svg" alt="logo11">
+        
+    
+    </div>
+    <div class="ccchild2">
+      
+        <img  src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5366%2Finterfaces-text.svg" alt="logo12">
+        
+    
+    </div>
+    <div class="ccchild3">
+      
+        <img  src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5365%2Fsoftware-text.svg" alt="logo13">
+        
+    
+    </div>
+    <div class="ccchild4">
+      
+        <img  src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5368%2Faccessories-text.svg" alt="logo14">
+        
+    
+    </div>
+    </div>
+    <hr>
+    <div class="p4parent">
+        <img  class="childim"src="https://cdn.rode.com/website/images/logo/RODE_logo_142x85_desktop_light_mode.svg" alt="logo15"> 
+        <div>
+            
+            <ul class="childul1">
+                <h3>Products</h3>
+            <li>Microphones</li><br>
+                <li>Headphones</li><br>
+                <li>Interfaces and Mixers</li><br>
+                <li>Accessories</li><br>
+                <li>Apps</li><br>
+                <li>Apparel</li>
+            </ul>
+        </div>
+        <div>
+           
+            <ul class="childul2">
+                <h3>Service</h3>
+            <li>Support Centre</li><br>
+            <li>Warranty</li><br>
+            <li>Where to Buy</li><br>
+            <li>Authorised Dealers</li>
+            </ul>
+        </div>
+        <div>
+            
+            <ul class="childul3">
+                <h3>company</h3>
+            <li>About RØDE</li><br>
+            <li>News and Info</li><br>
+            <li>Career Opportunities</li><br>
+            <h3>Account</h3>
+            <li>Create Account</li>
+        </ul>
+        </div>
+        <div class="p4child">
+            <h1>Subscribe to our latest <br>news and offers</h1>
+            <button  class="bchild" type="button">Subscribe</button>
+        </div>
+    </div>
+    <hr class="hchild">
+    <div class="lchild">
+        <p>© 2024 RØDE All Rights Reserved.</p>
+        <p>Privacy Policy
+            |
+            Terms & Conditions</p>
+            <span class="l2child">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitch"></i>
+                <i class="fa-brands fa-discord"></i>
+
+            </span>
+    </div>
+</body>
+</html>
